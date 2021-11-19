@@ -92,7 +92,7 @@ def Limpiar():
 	tabla.delete(*tabla.get_children())
 
 def Procesar():
-    print("Hola")
+    
     datos_obtenidos = indica['text']
     try:
         archivoexcel = r'{}'.format(datos_obtenidos)
